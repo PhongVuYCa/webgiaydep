@@ -1,0 +1,60 @@
+/* Đăng nhập , đăng kí */
+.login{
+    height: 400px;
+    background:#AFEEEE ;
+}
+.login1{
+    margin-top: 80px;
+}
+.registration{
+    height: 600px;
+    background: #AFEEEE;
+}
+.registration1{
+    margin-top: 80px;
+}
+.form{
+    width: 300px; margin: 0 auto;
+}
+.form input[type='text']{
+    width: 280px; border-radius: 2px;
+    border: 1px solid #CCC; 
+    padding: 10px; 
+    color: #333; 
+    font-size: 14px; 
+    margin-top: 10px;
+}
+.form input[type='email']{
+    width: 280px; border-radius: 2px;
+    border: 1px solid #CCC; 
+    padding: 10px; 
+    color: #333; 
+    font-size: 14px; 
+    margin-top: 10px;
+}
+.form input[type='password'] {
+    width: 280px; border-radius: 2px;
+    border: 1px solid #CCC; 
+    padding: 10px; 
+    color: #333; 
+    font-size: 14px; 
+    margin-top: 10px;
+}
+  
+.form input[type='submit']{
+  padding: 10px 25px 8px; 
+  color: #fff; 
+  background-color: #0067ab; 
+  text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+  font-size: 15px; 
+  box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+  border: 1px solid #0164a5; 
+  border-radius: 2px; 
+  margin-top: 10px; 
+  cursor:pointer;
+}
+.form input[type='submit']:hover {
+  background-color: #024978;
+} 
+
+/*  */
