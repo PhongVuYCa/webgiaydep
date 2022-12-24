@@ -716,6 +716,137 @@ color: #333;
 font-size: 14px; 
 margin-top: 10px;
 }
+/* tìm kiếm hóa đơn */
+.tkdh{margin-right: 50px;}
+.tkdh a{
+    display: flex ;
+    position: relative;
+    margin: 0px 10px;
+    font-size: 14px;
+    color:  rgba(0, 0, 0, 0.7);
+}
+.tkdh a:hover{
+  color:  #1a0d8f;
+  transition: all ease 0.2s;
+}
+ul.tkdh1{
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  margin: 0 10px;
+  line-height: 25px;
+}
+ul.tkdh1 li{
+  float: left;
+  margin:10px 0;
+  padding: 0px;
+}
+ul.tkdh1 li a:hover{
+  color: #088178;
+}
+ul.tkdh1 li a{
+  text-decoration: none;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.tkdh1 input[type='text'] {
+  width: 150px; 
+  border-radius: 2px;
+  border: 1px solid #CCC; 
+  padding: 4px; 
+  color: #333; 
+  font-size: 14px; 
+  margin-top: 10px;
+  margin-left: 320px;
+}
+.tkdh1 input[type='submit']{
+  padding: 4px 5px 4px; 
+  color: #fff; 
+  background-color: #0067ab; 
+  text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+  font-size: 14px; 
+  box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+  border: 1px solid #0164a5; 
+  border-radius: 2px; 
+  margin-top: 10px; 
+  cursor:pointer;
+}
+.tkdh1 input[type='submit']:hover {
+  background-color: #024978;
+} 
+.tkdh1 button{
+  padding: 4px 5px 4px; 
+  color: #fff; 
+  background-color: #0067ab; 
+  text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+  font-size: 14px; 
+  box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+  border: 1px solid #0164a5; 
+  border-radius: 2px; 
+  margin-top: 10px; 
+  cursor:pointer;
+}
+/* Đơn hang người dùng ko dăng kí hoặc đăng nhập */
+.donhang1{
+  width: auto;
+  text-align: center;
+  padding-left: 20px;
+  padding-bottom: 100px;
+}
+.donhang1 table{
+  border-collapse:collapse;
+}
+.donhang1 caption{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+.donhang1 td{
+  padding:0 15px;
+  border:1px solid #868585;
+  max-width: 250px;
+  word-break: break-word;
+}
+.donhang1 table tr:nth-child(odd){
+  background-color:#eee;
+}
+.donhang1 table tr:nth-child(even){
+  background-color:white;
+}
+.donhang1 table tr:nth-child(1){
+  background-color:skyblue;
+}
+/* Chi tiết đơn hàng */
+.ctdonhang{
+  width: 100%;
+  text-align: center;
+  padding:20px 0 100px 10px;
+}
+.ctdonhang table{
+  border-collapse:collapse;
+}
+.ctdonhang caption{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+.ctdonhang td{
+  padding:0 15px;
+  max-width: 520px;
+  word-break:break-word;
+  border:1px solid #868585;
+}
+.ctdonhang table tr:nth-child(odd){
+  background-color:#eee;
+}
+.ctdonhang table tr:nth-child(even){
+  background-color:white;
+}
+.ctdonhang table tr:nth-child(1){
+  background-color:skyblue;
+}
 .clear{
   clear: both;
 }
