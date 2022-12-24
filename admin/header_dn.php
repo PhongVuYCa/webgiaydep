@@ -9,10 +9,10 @@
         </div>
         <div class="menu">
             <ul>
-                <li><a href="">Trang Chủ</a></li>
+                <li><a href="home.php">Trang Chủ</a></li>
                 <li><a href="user.php">Danh sách khách hàng</a></li>
                 <li><a href="">Danh sách Sản Phẩm</a></li>
-                <li><a href="">Đơn hàng</a></li>
+                <li><a href="donhang.php">Đơn hàng</a></li>
             </ul>
         </div>
         
