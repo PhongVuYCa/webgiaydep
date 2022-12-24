@@ -29,8 +29,6 @@
     $password = stripslashes($_REQUEST['password']);
     $password = mysqli_real_escape_string($conn,$password);
     $query = "SELECT * FROM `users` WHERE username='$username' and password='".md5($password)."'";
-    echo $username;
-    echo md5($password);
     $result = mysqli_query($conn,$query);
     $rows = mysqli_num_rows($result);
         if($rows==1){
